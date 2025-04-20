@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.logo img {
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    background-color: #FF6B81;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FF4757;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+a {
+    color: #FF6B81;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #FF6B81;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 220px;
+    text-align: center;
+    vertical-align: top;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 180px; /* Ukuran tetap */
+    object-fit: cover; /* Menjaga proporsi gambar */
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 0 0 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.card a {
+    background-color: #FF6B81;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.card a:hover {
+    background-color: #FF4757;
+    transform: scale(1.03);
+}
+
+header.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+main.content {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kategori {
+    text-align: center;
+}
+
+.kategori-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
